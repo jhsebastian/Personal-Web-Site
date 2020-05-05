@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container__principal {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.container__profile {
+  height: 100vh;
+  /* background-image: url('https://picsum.photos/200/300?grayscale'); */
+  background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%,  rgba(116,147,179,1) 0%, rgba(62,83,104,1) 100.2% );
+  
+}
+
+.strong-name {
+  color: white;
+}
+
+.container__profile--description {
+  margin-top: 150px;
+  margin-right: 50px;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: rgb(121, 103, 103);
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
+
+.profile__picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 3px 0px 55px 0px rgba(0,0,0,0.75);
+}
+
+.container__profile--description p {
+  line-height: 1.75em;
+  color: rgba(221, 216, 216, 0.5);
+}
+

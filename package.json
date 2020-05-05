@@ -1,0 +1,17 @@
+{
+  "name": "sitiowebpersonal",
+  "version": "1.0.0",
+  "description": "it's my web site, here, you can find more about me and my developer life",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Profile"
+  ],
+  "author": "@Jhsebastian",
+  "license": "ISC"
+}
