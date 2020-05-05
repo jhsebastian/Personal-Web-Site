@@ -13,7 +13,9 @@ body {
   height: 100vh;
   /* background-image: url('https://picsum.photos/200/300?grayscale'); */
   background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%,  rgba(116,147,179,1) 0%, rgba(62,83,104,1) 100.2% );
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .strong-name {
@@ -44,4 +46,36 @@ body {
   line-height: 1.75em;
   color: rgba(221, 216, 216, 0.5);
 }
+
+footer {
+  margin-right: 50px;
+  text-align: end;
+  color: rgba(221, 216, 216, 0.5);
+  font-size: 15px;
+}
+
+footer img {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(82deg) brightness(105%) contrast(105%);
+}
+.footer-link:hover {
+  filter: invert(30%) sepia(14%) saturate(1793%) hue-rotate(184deg) brightness(93%) contrast(84%);
+}
+
+.footer__location {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+
+.footer__location img {
+  width: 20px;
+  height: 20px;
+  filter: invert(76%) sepia(0%) saturate(0%) hue-rotate(167deg) brightness(102%) contrast(80%);
+}
+
+
 
