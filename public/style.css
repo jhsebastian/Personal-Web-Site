@@ -5,17 +5,18 @@ body {
 }
 
 .container__principal {
-  display: grid;
-  grid-template-columns: 30% 70%;
+  display: flex;
 }
 
 .container__profile {
   height: 100vh;
+  width: 30%;
   /* background-image: url('https://picsum.photos/200/300?grayscale'); */
   background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%,  rgba(116,147,179,1) 0%, rgba(62,83,104,1) 100.2% );
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: fixed;
 }
 
 .strong-name {
@@ -77,12 +78,48 @@ footer img {
   filter: invert(76%) sepia(0%) saturate(0%) hue-rotate(167deg) brightness(102%) contrast(80%);
 }
 
+.container__general {
+  margin-left: 400px;
+  width: 60%;
+}
 
 .general__description {
-  border: 1px solid red;
-  margin: 45px;
+  margin: 150px 60px 60px 60px;
   width: 90%;
-  height: 500px;
+  height: 350px;
+  color: rgb(155, 153, 153);
+  border-bottom: 1px solid rgb(155, 153, 153);
+}
+
+.general__description h1 {
+  font-size: 30px;
+  color: rgb(102, 99, 99);
+}
+
+.general__description p {
+  font-size: 16px;
+  line-height: 35px;
+  margin-bottom: 50px;
+}
+
+.link__cv {
+  border: 2px solid rgb(102, 99, 99);
+  text-decoration: none;
+  padding: 10px 30px 10px 30px;
+  color: rgb(155, 153, 153);
+  border-radius: 10px;
+}
+
+.link__cv:hover {
+  
+}
+
+.link__cv:visited {
+  color: rgb(155, 153, 153);
+}
+
+.link__cv:active {
+  color: black;
 }
 
 
